@@ -35,7 +35,7 @@
                         Console.Write("[");
                         for (int i = 0; i < numbers.Count; i++)
                         {
-                            Console.Write($" {numbers[i]} ");
+                            Console.Write($" {numbers[i]} "); 
                         }
                         Console.WriteLine("]");
                         break;
