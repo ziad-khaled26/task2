@@ -33,9 +33,9 @@
                             break;
                         }
                         Console.Write("[");
-                        foreach (int num in numbers)
+                        for (int i = 0; i < numbers.Count; i++)
                         {
-                            Console.Write($" {num} ");
+                            Console.Write($" {numbers[i]} ");
                         }
                         Console.WriteLine("]");
                         break;
